@@ -14,6 +14,7 @@ class Job extends Model
         'id',
         'job_title',
         'job_region',
+        'Company',
         'job_type',
         'vacancy',
         'experience',
