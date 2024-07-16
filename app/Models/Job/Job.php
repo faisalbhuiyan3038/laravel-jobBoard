@@ -8,4 +8,24 @@ use Illuminate\Database\Eloquent\Model;
 class Job extends Model
 {
     use HasFactory;
+
+    protected $table = 'jobs';
+    protected $fillable = [
+        'id',
+        'job_title',
+        'job_region',
+        'job_type',
+        'vacancy',
+        'experience',
+        'salary',
+        'Gender',
+        'application_deadline',
+        'job_description',
+        'responsibilities',
+        'education_experience',
+        'other_benefits',
+        'image',
+    ];
+
+    public $timestamps = true;
 }
