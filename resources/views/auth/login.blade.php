@@ -18,7 +18,41 @@
     </section>
 
     <div class="container">
-        <div class="col-md-8">
+        <div style="margin-top: 35px;" class="col-md-12">
+            <!-- <form style="margin-top: 35px;" action="{{ __('Login') }}" method="POST" class="p-4 border rounded">
+
+                <div class="row form-group">
+                    <div class="col-md-12 mb-3 mb-md-0">
+                        <label class="text-black" for="fname">Email</label>
+                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+
+                        @error('email')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                        @enderror
+                    </div>
+                </div>
+                <div class="row form-group mb-4">
+                    <div class="col-md-12 mb-3 mb-md-0">
+                        <label class="text-black" for="fname">Password</label>
+                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+
+                        @error('password')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                        @enderror
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <input type="submit" name="submit" value="Log In" class="btn px-4 btn-primary text-white">
+                    </div>
+                </div>
+
+            </form> -->
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
 
